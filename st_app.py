@@ -2,6 +2,8 @@ import streamlit as st
 import PyPDF2
 from io import BytesIO
 
+st.set_page_config(page_title='Zaszyfruj pdf', page_icon='🔒')
+
 def encrypt_pdf(input_file, password):
     pdf_reader = PyPDF2.PdfReader(input_file)
     pdf_writer = PyPDF2.PdfWriter()
