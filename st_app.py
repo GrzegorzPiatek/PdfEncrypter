@@ -51,6 +51,6 @@ st.markdown("""
     }
     </style>
     <div class="footer">
-        <p>Autor: Grzegorz Piątek © 2024</p>
+        <p>Autor: Grzegorz Piątek © 2024 | Kontakt: grzegorzadampiatek@gmail.com</p>
     </div>
     """, unsafe_allow_html=True)
