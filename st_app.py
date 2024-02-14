@@ -40,7 +40,7 @@ st.markdown("""
     .reportview-container .main .block-container{
         padding-bottom: 100px;
     }
-    .footer {
+    footer {
         position: fixed;
         left: 0;
         bottom: 0;
@@ -48,9 +48,10 @@ st.markdown("""
         background-color: white;
         color: black;
         text-align: center;
+        padding: 0px;
     }
     </style>
-    <div class="footer">
-        <p>Autor: Grzegorz Piątek © 2024 | Kontakt: grzegorzadampiatek@gmail.com</p>
-    </div>
+    <footer>
+        Autor: Grzegorz Piątek © 2024 | Kontakt: grzegorzadampiatek@gmail.com
+    </footer>
     """, unsafe_allow_html=True)
