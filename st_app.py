@@ -30,3 +30,25 @@ if uploaded_file is not None and password:
                        data=encrypted_pdf,
                        file_name=f"zaszyfrowany_{uploaded_file.name}",
                        mime="application/pdf")
+
+
+# Add a footer
+st.markdown("""
+    <style>
+    .reportview-container .main .block-container{
+        padding-bottom: 100px;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+    </style>
+    <div class="footer">
+        <p>Autor: Grzegorz Piątek © 2024</p>
+    </div>
+    """, unsafe_allow_html=True)
